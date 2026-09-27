@@ -1,5 +1,5 @@
 // 본인의 Render 배포 URL로 변경하세요.
-const RENDER_SERVER_URL = 'https://plzdraw-server.onrender.com';
+const RENDER_SERVER_URL = 'https://plzdraw.onrender.com/';
 let socket = null;
 
 // PWA 서비스 워커 등록
