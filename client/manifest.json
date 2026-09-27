@@ -1,1 +1,16 @@
+{
+  "short_name": "plzdraw",
+  "name": "plzdraw - Realtime & Offline Drawing",
+  "icons": [
+    {
+      "src": "https://dummyimage.com/192x192/1e1e1e/ffffff.png&text=plzdraw",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#ffffff",
+  "theme_color": "#1e1e1e",
+  "display": "standalone"
+}
 
