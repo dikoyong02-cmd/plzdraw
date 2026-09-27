@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+canvas {
+  touch-action: none;
+  background-color: #ffffff;
+  cursor: crosshair;
+  display: block;
+}
+
+#status {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#status.online {
+  background-color: #e6f4ea;
+  color: #137333;
+}
+
+#status.offline {
+  background-color: #feefc3;
+  color: #b06000;
+}
